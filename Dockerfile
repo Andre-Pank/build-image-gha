@@ -8,8 +8,8 @@ RUN wget https://releases.hashicorp.com/terraform/1.8.2/terraform_1.8.2_linux_am
 
 RUN unzip terraform_1.8.2_linux_amd64.zip
 
-RUN pwd
-
 RUN ls -al
+
+RUN ls -al terraform
 
 EXPOSE 80
